@@ -70,6 +70,12 @@ This project investigates the socioeconomic context of gun violence by mapping 2
 
 ---
 
+## Testing Your Own Criteria
+
+The final_analysis.py file contains a function that takes in certain criteria and displays the number of incidents that match that criteria, and the average median household income of those incidents. Using the examples you can create your own function calls in final_analysis.py with whatever criteria you want. You could specify that you only want to see the average income for incidents that took place in a certain state or certain time period, or you can specific the number of people injured or killed in that incident.
+
+---
+
 ## Key Results
 
 My analysis revealed that the average household income in areas where shootings occurred in 2017 was approximately **$43,000**.
