@@ -27,8 +27,8 @@ This project investigates the socioeconomic context of gun violence by mapping 2
 1. **Clone the Repository:**
 
     ```bash
-    git clone git@github.com:markr05/gun-violence-analysis.git
-    cd gun-violence-analysis
+    git clone git@github.com:markr05/gun-violence-data.git
+    cd gun-violence-data
     ```
 
 2. **Create and Activate Virtual Environment:**
