@@ -1,7 +1,7 @@
 # Gun Violence vs. Median Household Income Analysis (2017)
 
 A geospatial data science project analyzing the correlation between gun violence incident locations and local economic data in the United States.
-
+![Income Distribution Chart](output/income_distribution_comparison.png)
 ---
 
 ## About
@@ -34,7 +34,7 @@ This project investigates the socioeconomic context of gun violence by mapping 2
 2. **Create and Activate Virtual Environment:**
 
     ```bash
-    python3 -m venv .venv
+    python -m venv .venv
     source .venv/bin/activate
     ```
 
