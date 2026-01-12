@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#5762D5"          # The color of sliders and buttons
+backgroundColor = "#D1E3DD"       # Main background
+secondaryBackgroundColor = "#D1E3DD" # Sidebar and input boxes
+textColor = "#32292F"             # Text color
+font = "sans serif"
