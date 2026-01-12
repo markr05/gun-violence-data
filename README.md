@@ -1,7 +1,7 @@
 # Gun Violence vs. Median Household Income Analysis (2017)
 
 A geospatial data science project analyzing the correlation between gun violence incident locations and local economic data in the United States.
-
+![Income Distribution Chart](output/income_distribution_comparison.png)
 ---
 
 ## About
@@ -27,14 +27,14 @@ This project investigates the socioeconomic context of gun violence by mapping 2
 1. **Clone the Repository:**
 
     ```bash
-    git clone git@github.com:markr05/gun-violence-analysis.git
-    cd gun-violence-analysis
+    git clone git@github.com:markr05/gun-violence-data.git
+    cd gun-violence-data
     ```
 
 2. **Create and Activate Virtual Environment:**
 
     ```bash
-    python3 -m venv .venv
+    python -m venv .venv
     source .venv/bin/activate
     ```
 
@@ -67,6 +67,12 @@ This project investigates the socioeconomic context of gun violence by mapping 2
     * Downloads and extracts US Census Tract shapefiles for all 50 states.
     * Performs a spatial join (`sjoin`) to match incidents to 11-digit GEOIDs.
     * Calculates average median household income for various demographics and incident types.
+
+---
+
+## Testing Your Own Criteria
+
+The final_analysis.py file contains a function that takes in certain criteria and displays the number of incidents that match that criteria, and the average median household income of those incidents. Using the examples you can create your own function calls in final_analysis.py with whatever criteria you want. You could specify that you only want to see the average income for incidents that took place in a certain state or certain time period, or you can specific the number of people injured or killed in that incident.
 
 ---
 
